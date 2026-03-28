@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Hero11</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+        }
+        .btn-primary {
+            background-color: #1e40af; /* Blue 800 */
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #1e3a8a; /* Blue 900 */
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.3);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .phone-mockup {
+            filter: drop-shadow(0 25px 50px rgba(30, 64, 175, 0.15));
+            transition: transform 0.5s ease;
+        }
+        .phone-mockup:hover {
+            transform: scale(1.02);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 sm:h-20">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-blue-700 rounded-xl flex items-center justify-center">
+                        <span class="text-white font-black text-xl italic">H11</span>
+                    </div>
+                    <span class="text-2xl font-extrabold tracking-tight text-blue-900">Hero<span class="text-blue-600">11</span></span>
+                </div>
+                <nav class="hidden md:flex space-x-8 font-medium text-slate-600">
+                    <a href="#features" class="hover:text-blue-700 transition">Features</a>
+                    <a href="#how-it-works" class="hover:text-blue-700 transition">How it Works</a>
+                    <a href="#winners" class="hover:text-blue-700 transition">Winners</a>
+                </nav>
+                <div>
+                    <a href="#download" class="btn-primary text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-md">Download App</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 404 Hero Section -->
+    <section class="pt-32 pb-20 hero-gradient overflow-hidden min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 bg-red-50 border border-red-100 px-3 py-1 rounded-full mb-6">
+                        <span class="flex h-2 w-2 rounded-full bg-red-600 animate-pulse"></span>
+                        <span class="text-red-700 text-xs font-bold uppercase tracking-wider">Page Not Found</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-tight mb-6">
+                        404 <span class="text-blue-700">Error</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-10 max-w-xl mx-auto lg:mx-0">
+                        Oops! The page you're looking for seems to have been bowled out. Don't worry, let's get you back to winning big with Hero11.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="/" class="btn-primary text-white px-8 py-4 rounded-xl font-bold flex items-center space-x-3 w-full sm:w-auto justify-center shadow-lg">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                            </svg>
+                            <span>Back to Home</span>
+                        </a>
+                        <div class="flex items-center space-x-2 text-slate-500 text-sm font-medium">
+                            <div class="flex -space-x-2">
+                                <img class="w-8 h-8 rounded-full border-2 border-white bg-slate-200 shadow-sm" src="https://api.dicebear.com/7.x/avataaars/svg?seed=1" alt="user">
+                                <img class="w-8 h-8 rounded-full border-2 border-white bg-slate-200 shadow-sm" src="https://api.dicebear.com/7.x/avataaars/svg?seed=2" alt="user">
+                                <img class="w-8 h-8 rounded-full border-2 border-white bg-slate-200 shadow-sm" src="https://api.dicebear.com/7.x/avataaars/svg?seed=3" alt="user">
+                            </div>
+                            <span>10M+ Trusted Users</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative flex justify-center">
+                    <!-- Decorative Circles -->
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-100 rounded-full blur-3xl opacity-50 -z-10"></div>
+
+                    <!-- Cricket Ball Illustration -->
+                    <div class="relative">
+                        <div class="w-64 h-64 bg-gradient-to-br from-red-500 to-red-700 rounded-full flex items-center justify-center shadow-2xl">
+                            <div class="w-56 h-56 bg-gradient-to-br from-red-400 to-red-600 rounded-full flex items-center justify-center">
+                                <div class="text-center text-white">
+                                    <div class="text-6xl font-black mb-2">404</div>
+                                    <div class="text-sm font-bold uppercase tracking-wider">Page Not Found</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cricket Stitches -->
+                        <div class="absolute top-1/2 left-0 right-0 h-1 bg-red-800 transform -translate-y-1/2"></div>
+                        <div class="absolute top-0 bottom-0 left-1/2 w-1 bg-red-800 transform -translate-x-1/2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-50 py-16 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-8 h-8 bg-blue-700 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-black text-sm italic">H11</span>
+                        </div>
+                        <span class="text-xl font-extrabold tracking-tight text-blue-900">Hero<span class="text-blue-600">11</span></span>
+                    </div>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Join millions of fans on Hero11, India's most trusted fantasy sports destination.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6 text-slate-800">Support</h5>
+                    <ul class="space-y-3 text-sm text-slate-500">
+                        <li><a href="#" class="hover:text-blue-700">Help Center</a></li>
+                        <li><a href="#" class="hover:text-blue-700">How to Play</a></li>
+                        <li><a href="#" class="hover:text-blue-700">Legality</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6 text-slate-800">Company</h5>
+                    <ul class="space-y-3 text-sm text-slate-500">
+                        <li><a href="#" class="hover:text-blue-700">About Us</a></li>
+                        <li><a href="pages/privacy-policy.html" class="hover:text-blue-700">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-blue-700">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6 text-slate-800">Responsible Gaming</h5>
+                    <div class="text-[10px] text-slate-400 leading-relaxed uppercase tracking-widest font-bold bg-slate-200/50 p-3 rounded-lg border border-slate-200">
+                        18+ Users Only. Please Play Responsibly.
+                    </div>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-200 text-center md:text-left">
+                <p class="text-xs text-slate-400">© 2026 Hero11 Fantasy Sports. Winnings subject to TDS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body>
+</html>
